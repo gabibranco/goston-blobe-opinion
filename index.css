@@ -20,3 +20,11 @@ body {
 .highlight {
   background-color: #FECE7A;
 }
+
+.content-block {
+  line-height: 16px;
+}
+
+.bigger {
+  font-size: 30px;
+}
