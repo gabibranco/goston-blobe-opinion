@@ -8,6 +8,16 @@ html, body {
 .navbar-go {
   background-color: transparent;
   transition: 0.5s background-color ease;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  width: 104vw;
+  margin-left: -8px;
+  margin-top: -10px;
+}
+
+.navbar-go img {
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
 }
 
 .navbar-red {
@@ -16,6 +26,7 @@ html, body {
   -moz-transform: rotate(3deg);
   width: 104vw;
   margin-left: -8px;
+  margin-top: -10px;
 }
 
 .img-untwist {
@@ -29,6 +40,7 @@ html, body {
   -moz-transform: rotate(3deg);
   width: 104vw;
   margin-left: -8px;
+  margin-top: -10px;
 }
 
 .first-p {
