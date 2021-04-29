@@ -1,7 +1,8 @@
-body {
+html, body {
   background-color: #D9D9D9;
   font-size: 24px;
   font-family: 'Calistoga', cursive;
+  overflow-x: hidden;
 }
 
 .navbar-go {
@@ -10,7 +11,7 @@ body {
 }
 
 .navbar-red {
-  background-color: red;
+  background-color: #9B1417;
 }
 
 .first-p {
@@ -19,6 +20,7 @@ body {
 
 .highlight {
   background-color: #FECE7A;
+  color: black;
 }
 
 .content-block {
@@ -26,5 +28,39 @@ body {
 }
 
 .bigger {
-  font-size: 30px;
+  font-size: 32px;
+}
+
+.bg-twist {
+  margin-top: 32px;
+  background-color: #9B1417;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  width: 104vw;
+  margin-left: -8px;
+  padding: 10px;
+  overflow-x: hidden;
+  color: white;
+}
+
+.bg-untwist {
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+}
+
+.bg-twist-black {
+  margin-top: 32px;
+  background-color: #9B1417;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  width: 104vw;
+  margin-left: -8px;
+  padding: 10px;
+  overflow-x: hidden;
+  color: white;
+}
+
+.bg-untwist-black {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
 }
