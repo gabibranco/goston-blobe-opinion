@@ -1,12 +1,21 @@
-@media only screen and (max-width: 768px) {
+@media (max-width: 575.98px) {
   .mobile {
     display: block;
   }
+  .desktop {
+    display: none;
+  }
 }
 
-.mobile {
-  display: none;
+@media (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
 }
+
 
 html, body {
   background-color: #D9D9D9;
