@@ -20,7 +20,8 @@
 html, body {
   background-color: #D9D9D9;
   font-size: 24px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -77,7 +78,9 @@ html, body {
 }
 
 .bold {
-  font-weight: 900;
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 1px;
+  font-size: 24px;
 }
 
 .navbar-yellow {
@@ -126,19 +129,25 @@ html, body {
 .highlight {
   background-color: #FECE7A;
   color: #000;
-  font-family: 'Calistoga', cursive;
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 1px;
+  font-size: 24px;
 }
 
 .r-highlight {
   background-color: #000;
   color: #FECE7A;
-  font-family: 'Calistoga', cursive;
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 1px;
+  font-size: 24px;
 }
 
 .bw-highlight {
   background-color: #000;
   color:  #FFF;
-  font-family: 'Calistoga', cursive;
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 1px;
+  font-size: 24px;
 }
 
 .content-block {
@@ -147,6 +156,8 @@ html, body {
 
 .bigger {
   font-size: 32px;
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 1px;
 }
 
 .bg-red-twist {
@@ -224,8 +235,9 @@ html, body {
 .date {
   margin-top: -16px;
   font-size: 22px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px #000;
+  font-weight: 400;
 }
 
 .content-p {
