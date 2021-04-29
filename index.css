@@ -1,0 +1,22 @@
+body {
+  background-color: #D9D9D9;
+  font-size: 24px;
+  font-family: 'Calistoga', cursive;
+}
+
+.navbar-go {
+  background-color: transparent;
+  transition: 0.5s background-color ease;
+}
+
+.navbar-red {
+  background-color: red;
+}
+
+.first-p {
+  margin-top: 240px;
+}
+
+.highlight {
+  background-color: #FECE7A;
+}
