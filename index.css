@@ -22,6 +22,7 @@ html, body {
   font-size: 24px;
   font-family: 'Calistoga', cursive;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .navbar-go {
@@ -39,22 +40,24 @@ html, body {
   -moz-transform: rotate(-3deg);
 }
 
-.navbar-gray {
+.navbar-grey {
   background-color: #D9D9D9;
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
   width: 104vw;
   text-align: left !important;
   padding: 30px;
+  opacity: 0.9;
   margin-left: -8px;
   margin-top: -10px;
 }
 
 .navbar-black {
-  background-color: black;
+  background-color: #000;
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
   width: 104vw;
+  opacity: 0.9;
   text-align: left !important;
   padding: 30px;
   margin-left: -8px;
@@ -68,6 +71,31 @@ html, body {
   width: 104vw;
   text-align: left !important;
   padding: 30px;
+  opacity: 0.9;
+  margin-left: -8px;
+  margin-top: -10px;
+}
+
+.navbar-yellow {
+  background-color: #FECE7A;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  width: 104vw;
+  text-align: left !important;
+  padding: 30px;
+  opacity: 0.9;
+  margin-left: -8px;
+  margin-top: -10px;
+}
+
+.navbar-blue {
+  background-color: #005DC4;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  width: 104vw;
+  text-align: left !important;
+  padding: 30px;
+  opacity: 0.9;
   margin-left: -8px;
   margin-top: -10px;
 }
@@ -84,6 +112,7 @@ html, body {
 
 .logo-small {
   height: 60px;
+  transition: 0.5s height ease;
 }
 
 .first-p {
@@ -92,7 +121,17 @@ html, body {
 
 .highlight {
   background-color: #FECE7A;
-  color: black;
+  color: #000;
+}
+
+.r-highlight {
+  background-color: #000;
+  color: #FECE7A;
+}
+
+.bw-highlight {
+  background-color: #000;
+  color:  #FFF;
 }
 
 .content-block {
@@ -103,7 +142,7 @@ html, body {
   font-size: 32px;
 }
 
-.bg-twist {
+.bg-red-twist {
   margin-top: 32px;
   background-color: #9B1417;
   -webkit-transform: rotate(3deg);
@@ -111,8 +150,20 @@ html, body {
   width: 104vw;
   margin-left: -8px;
   padding: 10px;
-  overflow-x: hidden;
-  color: white;
+  overflow: hidden;
+  color: #FFF;
+}
+
+.bg-twist-yellow {
+  margin-top: -16px;
+  background-color: #FECE7A;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  width: 104vw;
+  margin-left: -8px;
+  padding: 10px;
+  overflow: hidden;
+  color: #000;
 }
 
 .bg-untwist {
@@ -122,18 +173,40 @@ html, body {
 
 .bg-black-twist {
   margin-top: -32px;
-  background-color: black;
+  background-color: #000;
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
   width: 104vw;
   margin-left: -8px;
   padding: 10px;
-  color: white;
+  color: #FFF;
 }
 
-.bg-black-untwist {
+.bg-grey-twist {
+  margin-top: -32px;
+  background-color: #D9D9D9;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  width: 104vw;
+  margin-left: -8px;
+  padding: 10px;
+  color: #000;
+}
+
+.bg-reverse-untwist {
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
+}
+
+.bg-blue-twist {
+  margin-top: -32px;
+  background-color: #005DC4;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  width: 104vw;
+  margin-left: -8px;
+  padding: 10px;
+  color: #FFF;
 }
 
 #mlk {

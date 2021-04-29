@@ -4,16 +4,16 @@ const initUpdateNavbarOnScroll = () => {
   const firstP = document.querySelector('#first-p');
   if (navbar) {
     window.addEventListener('scroll', () => {
-      if (window.scrollY >= 36 && window.scrollY < 177) {
-        navbar.classList.add('navbar-gray');
+      if (window.scrollY >= 36 && window.scrollY < 142) {
+        navbar.classList.add('navbar-grey');
         logo.classList.add('img-untwist');
         logo.classList.add('logo-small');
         firstP.classList.remove('first-p');
         firstP.classList.add('content-p');
         navbar.classList.remove('navbar-red');
-      } else if (window.scrollY >= 177 && window.scrollY < 415) {
+      } else if (window.scrollY >= 142 && window.scrollY < 415) {
         navbar.classList.add('navbar-red');
-        navbar.classList.remove('navbar-gray');
+        navbar.classList.remove('navbar-grey');
         navbar.classList.remove('navbar-black');
         logo.classList.remove('img-untwist-black');
         logo.classList.add('img-untwist');
