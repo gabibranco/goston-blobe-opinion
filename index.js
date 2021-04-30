@@ -64,11 +64,16 @@ const initUpdateNavbarOnScroll = () => {
         logo.classList.remove('img-untwist-black');
         logo.classList.add('img-untwist');
         navbar.classList.remove('navbar-red');
-      } else if (window.scrollY >= 2478) {
+      } else if (window.scrollY >= 2478  && window.scrollY < 2714) {
         navbar.classList.add('navbar-red');
         navbar.classList.remove('navbar-grey');
         logo.classList.remove('img-untwist-black');
         logo.classList.add('img-untwist');
+      } else if (window.scrollY >= 2714) {
+        navbar.classList.add('navbar-black');
+        navbar.classList.remove('navbar-red');
+        logo.classList.add('img-untwist-black');
+        logo.classList.remove('img-untwist');
       }
     });
   }

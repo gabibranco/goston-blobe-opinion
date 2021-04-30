@@ -77,12 +77,6 @@ html, body {
   margin-top: -10px;
 }
 
-.bold {
-  font-family: 'Alfa Slab One', cursive;
-  letter-spacing: 1px;
-  font-size: 24px;
-}
-
 .navbar-yellow {
   background-color: #FECE7A;
   -webkit-transform: rotate(3deg);
@@ -120,6 +114,16 @@ html, body {
 .logo-small {
   height: 60px;
   transition: 0.5s height ease;
+}
+
+.bold {
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+.container {
+  width: 374px;
 }
 
 .first-p {
