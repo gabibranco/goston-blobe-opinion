@@ -11,12 +11,12 @@ const initUpdateNavbarOnScroll = () => {
         firstP.classList.remove('first-p');
         firstP.classList.add('content-p');
         navbar.classList.remove('navbar-red');
-      } else if (window.scrollY >= 210 && window.scrollY < 500) {
+      } else if (window.scrollY >= 210 && window.scrollY < 487) {
         navbar.classList.add('navbar-red');
         navbar.classList.remove('navbar-black');
         logo.classList.remove('img-untwist-black');
         logo.classList.add('img-untwist');
-      } else if (window.scrollY >= 500 && window.scrollY < 800) {
+      } else if (window.scrollY >= 487 && window.scrollY < 800) {
         navbar.classList.remove('navbar-red');
         navbar.classList.add('navbar-black');
         logo.classList.remove('img-untwist');
