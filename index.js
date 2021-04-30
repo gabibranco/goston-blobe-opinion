@@ -16,25 +16,25 @@ const initUpdateNavbarOnScroll = () => {
         navbar.classList.remove('navbar-black');
         logo.classList.remove('img-untwist-black');
         logo.classList.add('img-untwist');
-      } else if (window.scrollY >= 500 && window.scrollY < 711) {
+      } else if (window.scrollY >= 500 && window.scrollY < 800) {
         navbar.classList.remove('navbar-red');
         navbar.classList.add('navbar-black');
         logo.classList.remove('img-untwist');
         logo.classList.add('img-untwist-black');
         navbar.classList.remove('navbar-yellow');
-      } else if (window.scrollY >= 711 && window.scrollY < 940) {
+      } else if (window.scrollY >= 800 && window.scrollY < 1098) {
         navbar.classList.add('navbar-yellow');
         navbar.classList.remove('navbar-black');
         logo.classList.remove('img-untwist-black');
         logo.classList.add('img-untwist');
         navbar.classList.remove('navbar-blue');
-      } else if (window.scrollY >= 940 && window.scrollY < 1134) {
+      } else if (window.scrollY >= 1098 && window.scrollY < 1290) {
         navbar.classList.remove('navbar-yellow');
         navbar.classList.add('navbar-blue');
         logo.classList.remove('img-untwist');
         logo.classList.add('img-untwist-black');
         logo.classList.remove('navbar-grey');
-      }  else if (window.scrollY >= 1134 && window.scrollY < 1339) {
+      }  else if (window.scrollY >= 1290 && window.scrollY < 1339) {
         navbar.classList.add('navbar-grey');
         navbar.classList.remove('navbar-blue');
         logo.classList.remove('img-untwist-black');
