@@ -1,4 +1,4 @@
-@media (max-width: 575.98px) {
+@media (max-width: 700px) {
   .mobile {
     display: block;
   }
@@ -7,7 +7,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .desktop {
     display: block;
   }
