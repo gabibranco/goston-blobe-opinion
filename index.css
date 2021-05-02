@@ -146,6 +146,7 @@ p {
 .btn-danger {
   background-color: #9B1417;
   font-family: 'Alfa Slab One', cursive;
+  border-radius: 3px;
 }
 
 .btn-danger span {
