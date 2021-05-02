@@ -79,16 +79,16 @@
 //   }
 // }
 
+let navbar = document.querySelector(".navbar-go")
+let navbarHeight = navbar.offsetHeight;
+let textOver = document.querySelector(".text-over");
+textOver.style.marginTop = navbarHeight + 'px';
 
 document.addEventListener('scroll', () => {
   // console.log(window.scrollY);
+  navbar.style.opacity = 100/window.scrollY;
   if (window.scrollY >= 100) {
     let arrow = document.querySelector(".bounce");
     arrow.style.opacity = 0;
   }
 });
-
-
-let navbarHeight = document.querySelector(".navbar-go").offsetHeight;
-let textOver = document.querySelector(".text-over");
-textOver.style.marginTop = navbarHeight + 'px';

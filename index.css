@@ -58,7 +58,7 @@ html, body {
   background-color: #D9D9D9;
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
-  width: 104vw;
+  width: 106vw;
   text-align: left !important;
   padding: 30px;
   opacity: 0.9;
@@ -70,7 +70,7 @@ html, body {
   background-color: #000;
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
-  width: 104vw;
+  width: 106vw;
   opacity: 0.9;
   text-align: left !important;
   padding: 30px;
@@ -82,7 +82,7 @@ html, body {
   background-color: #9B1417;
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
-  width: 104vw;
+  width: 106vw;
   text-align: left !important;
   padding: 30px;
   opacity: 0.9;
@@ -94,7 +94,7 @@ html, body {
   background-color: #FECE7A;
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
-  width: 104vw;
+  width: 106vw;
   text-align: left !important;
   padding: 30px;
   opacity: 0.9;
@@ -106,7 +106,7 @@ html, body {
   background-color: #005DC4;
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
-  width: 104vw;
+  width: 106vw;
   text-align: left !important;
   padding: 30px;
   opacity: 0.9;
@@ -192,7 +192,7 @@ html, body {
   background-color: #9B1417;
   -webkit-transform: rotate(-3deg);
   -moz-transform: rotate(-3deg);
-  width: 104vw;
+  width: 106vw;
   margin-left: -8px;
   padding: 10px;
   overflow: hidden;
@@ -204,7 +204,7 @@ html, body {
   background-color: #FECE7A;
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
-  width: 104vw;
+  width: 106vw;
   margin-left: -8px;
   padding: 10px;
   overflow: hidden;
@@ -221,7 +221,7 @@ html, body {
   background-color: #000;
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
-  width: 104vw;
+  width: 106vw;
   margin-left: -8px;
   padding: 10px;
   color: #FFF;
@@ -232,7 +232,7 @@ html, body {
   background-color: #D9D9D9;
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
-  width: 104vw;
+  width: 106vw;
   margin-left: -8px;
   padding: 10px;
   color: #000;
@@ -248,7 +248,7 @@ html, body {
   background-color: #005DC4;
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
-  width: 104vw;
+  width: 106vw;
   margin-left: -8px;
   padding: 10px;
   color: #FFF;
