@@ -143,6 +143,15 @@ p {
   color: #FFF;
 }
 
+.btn-danger {
+  background-color: #9B1417;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.btn-danger span {
+  font-family: 'Roboto', sans-serif;
+}
+
 .bg-grey-twist .d-flex {
   /*min-height: 80vh;*/
 }
