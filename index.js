@@ -9,6 +9,8 @@ document.addEventListener('scroll', () => {
     navbar.style.opacity = 100/window.scrollY;
     let arrow = document.querySelector(".bounce");
     arrow.style.opacity = 0;
+  } else {
+    navbar.style.opacity = 100;
   }
 });
 
