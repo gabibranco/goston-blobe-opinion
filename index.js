@@ -80,10 +80,11 @@
 // }
 
 
-// document.addEventListener('scroll', () => {
-//   console.log(window.scrollY);
-//   initUpdateNavbarOnScroll();
-// });
+document.addEventListener('scroll', () => {
+  // console.log(window.scrollY);
+  let arrow = document.querySelector(".bounce");
+  arrow.style.display = "none";
+});
 
 
 let navbarHeight = document.querySelector(".navbar-go").offsetHeight;

@@ -34,6 +34,11 @@ html, body {
   z-index: 1030;
 }
 
+.arrow {
+  font-size: 36px;
+  color: #FFF;
+}
+
 .twist {
   -webkit-transform: rotate(-3deg);
   -moz-transform: rotate(-3deg);
@@ -42,7 +47,6 @@ html, body {
 .navbar-go {
   background-color: transparent;
   transition: 0.5s background-color ease;
-  /*height: 80vh;*/
 }
 
 .navbar-go .img-untwist {
@@ -123,6 +127,10 @@ html, body {
 .logo-small {
   height: 60px;
   transition: 0.5s height ease;
+}
+
+#logo {
+  height: 85px;
 }
 
 .bold {
@@ -266,4 +274,22 @@ html, body {
 
 .desktop-content {
   height: 100vh;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
 }
