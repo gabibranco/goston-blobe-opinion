@@ -82,8 +82,10 @@
 
 document.addEventListener('scroll', () => {
   // console.log(window.scrollY);
-  let arrow = document.querySelector(".bounce");
-  arrow.style.display = "none";
+  if (window.scrollY >= 100) {
+    let arrow = document.querySelector(".bounce");
+    arrow.style.opacity = 0;
+  }
 });
 
 
