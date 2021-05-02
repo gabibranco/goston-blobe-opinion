@@ -84,3 +84,8 @@
 //   console.log(window.scrollY);
 //   initUpdateNavbarOnScroll();
 // });
+
+
+let navbarHeight = document.querySelector(".navbar-go").offsetHeight;
+let textOver = document.querySelector(".text-over");
+textOver.style.marginTop = navbarHeight + 'px';
