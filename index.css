@@ -37,6 +37,7 @@ html, body {
 .navbar-go {
   background-color: transparent;
   transition: 0.5s background-color ease;
+  height: 65vh;
 }
 
 .navbar-go .img-untwist {
