@@ -127,7 +127,7 @@ html, body {
 }
 
 .bg-red-twist {
-  min-height: 98vh;
+  min-height: 96vh;
   margin-top: 32px;
   background-color: #9B1417;
   -webkit-transform: rotate(-3.43deg);
@@ -140,7 +140,7 @@ html, body {
 }
 
 .bg-yellow-twist {
-  min-height: 98vh;
+  min-height: 96vh;
   margin-top: -16px;
   background-color: #FECE7A;
   -webkit-transform: rotate(-3.43deg);
@@ -153,7 +153,7 @@ html, body {
 }
 
 .bg-black-twist {
-  min-height: 98vh;
+  min-height: 96vh;
   margin-top: -32px;
   background-color: #000;
   -webkit-transform: rotate(-3.43deg);
@@ -165,7 +165,7 @@ html, body {
 }
 
 .bg-grey-twist {
-  min-height: 98vh;
+  min-height: 96vh;
   margin-top: -32px;
   background-color: #D9D9D9;
   -webkit-transform: rotate(-3.43deg);
@@ -182,7 +182,7 @@ html, body {
 }
 
 .bg-blue-twist {
-  min-height: 98vh;
+  min-height: 96vh;
   margin-top: -32px;
   background-color: #005DC4;
   -webkit-transform: rotate(-3.43deg);
@@ -191,6 +191,10 @@ html, body {
   margin-left: -6vw;
   padding: 10px;
   color: #FFF;
+}
+
+.collection {
+  width: 100%;
 }
 
 .img {
