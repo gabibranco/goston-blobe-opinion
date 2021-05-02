@@ -34,6 +34,10 @@ html, body {
   z-index: 1030;
 }
 
+p {
+  margin-bottom: 0.5rem;
+}
+
 .arrow {
   font-size: 36px;
   color: #FFF;
@@ -128,7 +132,7 @@ html, body {
 
 .bg-red-twist {
   min-height: 85vh;
-  margin-top: 32px;
+  margin-top:0px;
   background-color: #9B1417;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
@@ -139,9 +143,22 @@ html, body {
   color: #FFF;
 }
 
+.bg-white-twist {
+  min-height: 85vh;
+  margin-top:0px;
+  background-color: #FFF;
+  -webkit-transform: rotate(-3.43deg);
+  -moz-transform: rotate(-3.43deg);
+  width: 115vw;
+  margin-left: -6vw;
+  padding: 10px;
+  overflow: hidden;
+  color: #000;
+}
+
 .bg-yellow-twist {
   min-height: 85vh;
-  margin-top: -16px;
+  margin-top: 0px;
   background-color: #FECE7A;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
@@ -154,7 +171,7 @@ html, body {
 
 .bg-black-twist {
   min-height: 85vh;
-  margin-top: -32px;
+  margin-top: 0px;
   background-color: #000;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
@@ -166,7 +183,7 @@ html, body {
 
 .bg-grey-twist {
   min-height: 85vh;
-  margin-top: -32px;
+  margin-top: 0px;
   background-color: #D9D9D9;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
@@ -183,7 +200,7 @@ html, body {
 
 .bg-blue-twist {
   min-height: 85vh;
-  margin-top: -32px;
+  margin-top: 0px;
   background-color: #005DC4;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
