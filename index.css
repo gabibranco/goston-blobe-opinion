@@ -127,7 +127,7 @@ p {
   width: 115vw;
   margin-left: -6vw;
   padding: 10px;
-  overflow: hidden;
+  overflow-x: hidden;
   color: #FFF;
 }
 
@@ -154,7 +154,7 @@ p {
   width: 115vw;
   margin-left: -6vw;
   padding: 10px;
-  overflow: hidden;
+  overflow-x: hidden;
   color: #000;
 }
 
@@ -167,7 +167,7 @@ p {
   width: 115vw;
   margin-left: -6vw;
   padding: 10px;
-  overflow: hidden;
+  overflow-x: hidden;
   color: #000;
 }
 
