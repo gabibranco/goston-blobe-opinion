@@ -86,8 +86,8 @@ textOver.style.marginTop = navbarHeight + 'px';
 
 document.addEventListener('scroll', () => {
   // console.log(window.scrollY);
-  navbar.style.opacity = 100/window.scrollY;
   if (window.scrollY >= 100) {
+    navbar.style.opacity = 100/window.scrollY;
     let arrow = document.querySelector(".bounce");
     arrow.style.opacity = 0;
   }
