@@ -139,12 +139,12 @@ html, body {
   color: #FFF;
 }
 
-.bg-twist-yellow {
+.bg-yellow-twist {
   min-height: 98vh;
   margin-top: -16px;
   background-color: #FECE7A;
-  -webkit-transform: rotate(3.43deg);
-  -moz-transform: rotate(3.43deg);
+  -webkit-transform: rotate(-3.43deg);
+  -moz-transform: rotate(-3.43deg);
   width: 115vw;
   margin-left: -6vw;
   padding: 10px;
