@@ -58,16 +58,18 @@ p {
   font-size: 30px;
 }
 
-.container {
-  /*width: 374px;*/
-}
-
 .widont {
   white-space: nowrap;
 }
 
 .first-p {
   font-family: 'Abhaya Libre', serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.caption {
+  font-family: 'Alfa Slab One', cursive;
   font-size: 20px;
   font-weight: 400;
 }
