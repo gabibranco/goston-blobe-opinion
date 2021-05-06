@@ -1,5 +1,6 @@
 .mobile {
   display: block;
+  height: auto;
 }
 .desktop {
   display: none;
@@ -11,7 +12,6 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   overflow-x: hidden;
-  height: auto;
 }
 
 .year-right p {
