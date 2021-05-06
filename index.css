@@ -10,8 +10,17 @@ html, body {
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-x: clip;
+  transition: 0.5s display ease;
+  /*opacity: 0.6;*/
+}
+
+.year-right p {
+  display: none;
+  position: fixed;
+  top: 33vh;
+  z-index: 9;
+  right: 10px;
 }
 
 .fixed-top {
@@ -127,7 +136,7 @@ p {
   width: 115vw;
   margin-left: -6vw;
   padding: 10px;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   color: #FFF;
 }
 
@@ -141,39 +150,32 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-.bg-grey-twist .d-flex {
-  /*min-height: 80vh;*/
-}
-
 .bg-white-twist {
-/*  min-height: 85vh;
-*/  margin-top:0px;
+  margin-top:0px;
   background-color: #FFF;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
   width: 115vw;
   margin-left: -6vw;
   padding: 10px;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   color: #000;
 }
 
 .bg-yellow-twist {
-/*  min-height: 85vh;
-*/  margin-top: 0px;
+  margin-top: 0px;
   background-color: #FECE7A;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
   width: 115vw;
   margin-left: -6vw;
   padding: 10px;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   color: #000;
 }
 
 .bg-black-twist {
-/*  min-height: 85vh;
-*/  margin-top: 0px;
+  margin-top: 0px;
   background-color: #000;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
@@ -184,8 +186,7 @@ p {
 }
 
 .bg-grey-twist {
-/*  min-height: 85vh;
-*/  margin-top: 0px;
+  margin-top: 0px;
   background-color: #D9D9D9;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
@@ -201,8 +202,7 @@ p {
 }
 
 .bg-blue-twist {
-/*  min-height: 85vh;
-*/  margin-top: 0px;
+  margin-top: 0px;
   background-color: #005DC4;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
