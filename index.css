@@ -11,6 +11,8 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   overflow-x: clip;
+  height: auto;
+  width: 100vw;
 }
 
 .year-right p {
@@ -108,17 +110,6 @@ p {
   letter-spacing: 1px;
 }
 
-.bg-red-twist {
-  margin-top:0px;
-  background-color: #9B1417;
-  -webkit-transform: rotate(-3.43deg);
-  -moz-transform: rotate(-3.43deg);
-  width: 115vw;
-  margin-left: -6vw;
-  padding: 10px;
-  color: #FFF;
-}
-
 .btn-danger {
   background-color: #9B1417;
   font-family: 'Alfa Slab One', cursive;
@@ -129,7 +120,20 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+.bg-red-twist {
+  overflow: hidden;
+  margin-top:0px;
+  background-color: #9B1417;
+  -webkit-transform: rotate(-3.43deg);
+  -moz-transform: rotate(-3.43deg);
+  width: 115vw;
+  margin-left: -6vw;
+  padding: 10px;
+  color: #FFF;
+}
+
 .bg-white-twist {
+  overflow: hidden;
   margin-top:0px;
   background-color: #FFF;
   -webkit-transform: rotate(-3.43deg);
@@ -141,6 +145,7 @@ p {
 }
 
 .bg-yellow-twist {
+  overflow: hidden;
   margin-top: 0px;
   background-color: #FECE7A;
   -webkit-transform: rotate(-3.43deg);
@@ -152,6 +157,7 @@ p {
 }
 
 .bg-black-twist {
+  overflow: hidden;
   margin-top: 0px;
   background-color: #000;
   -webkit-transform: rotate(-3.43deg);
@@ -163,6 +169,7 @@ p {
 }
 
 .bg-grey-twist {
+  overflow: hidden;
   margin-top: 0px;
   background-color: #D9D9D9;
   -webkit-transform: rotate(-3.43deg);
@@ -173,12 +180,8 @@ p {
   color: #000;
 }
 
-.bg-untwist {
-  -webkit-transform: rotate(3.43deg);
-  -moz-transform: rotate(3.43deg);
-}
-
 .bg-blue-twist {
+  overflow: hidden;
   margin-top: 0px;
   background-color: #005DC4;
   -webkit-transform: rotate(-3.43deg);
@@ -187,6 +190,11 @@ p {
   margin-left: -6vw;
   padding: 10px;
   color: #FFF;
+}
+
+.bg-untwist {
+  -webkit-transform: rotate(3.43deg);
+  -moz-transform: rotate(3.43deg);
 }
 
 .collection {
