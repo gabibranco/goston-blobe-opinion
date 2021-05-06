@@ -85,6 +85,9 @@ document.addEventListener('scroll', () => {
     yearThree.style.display = 'block';
     captionThree.style.display = 'block';
 
+    yearThree.style.color = '#000';
+    captionThree.style.color = '#000';
+
     yearThree.style.backgroundColor = 'rgba(254, 206, 122, 0.8)';
     captionThree.style.backgroundColor = 'rgba(254, 206, 122, 0.8)';
   } else {
@@ -162,6 +165,9 @@ document.addEventListener('scroll', () => {
   if (positionNine.top <= 280 && positionNine.bottom >= 430) {
     yearNine.style.display = 'block';
     captionNine.style.display = 'block';
+
+    yearNine.style.color = '#000';
+    captionNine.style.color = '#000';
 
     yearNine.style.backgroundColor = 'rgba(254, 206, 122, 0.8)';
     captionNine.style.backgroundColor = 'rgba(254, 206, 122, 0.8)';
