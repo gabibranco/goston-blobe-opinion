@@ -19,7 +19,7 @@ html, body {
   position: fixed;
   top: 33vh;
   z-index: 9;
-  padding-left: 5px;
+  padding: 0 5px;
   right: 0;
   font-size: 20px;
   color: #FFF;
@@ -28,6 +28,17 @@ html, body {
 
 .year-right p span {
   font-size: 20px;
+}
+
+.caption-left p {
+  position: fixed;
+  top: 45vh;
+  z-index: 9;
+  padding: 0 5px;
+  font-size: 20px;
+  color: #FFF;
+  display: none;
+  max-width: 40vw;
 }
 
 .fixed-top {
