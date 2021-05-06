@@ -10,7 +10,7 @@ html, body {
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  overflow-x: clip;
+  overflow-x: hidden;
   height: auto;
   width: 100vw !important;
 }
