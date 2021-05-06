@@ -4,7 +4,7 @@ let textOver = document.querySelector('.text-over');
 let body = document.querySelector('body');
 
 textOver.style.marginTop = navbarHeight + 'px';
-body.style.width = screen.width + 'px';
+body.style.maxWidth = screen.width + 'px';
 
 document.addEventListener('scroll', () => {
   // find news blocks and its height
