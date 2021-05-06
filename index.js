@@ -58,72 +58,94 @@ document.addEventListener('scroll', () => {
   let positionNine = nine.getBoundingClientRect();
   let positionTen = ten.getBoundingClientRect();
 
+  // console.log('positionOne.top', positionOne.top);
+  // console.log('one.offsetHeight', one.offsetHeight);
+  // console.log('yearOne.offsetHeight', yearOne.offsetHeight);
+  // console.log('positionOne.bottom', positionOne.bottom);
+  // console.log('positionTwo.top', positionTwo.top);
+  // console.log('positionTwo.bottom', positionTwo.bottom);
+  // console.log('');
 
-  if (positionOne.bottom >= 0 && positionOne.bottom <= window.innerHeight) {
+  if (positionOne.top <= 280 && positionOne.bottom >= 430) {
     yearOne.style.display = 'block';
+    yearOne.style.backgroundColor = 'rgba(155, 20, 23, 0.8)';
   } else {
     yearOne.style.display = 'none';
   }
 
-  if (positionTwo.bottom >= 0 && positionTwo.bottom <= window.innerHeight) {
+  if (positionTwo.top <= 280 && positionTwo.bottom >= 430) {
     yearOne.style.display = 'none';
     yearTwo.style.display = 'block';
+    yearTwo.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+
   } else {
     yearTwo.style.display = 'none';
   }
 
-  if (positionThree.bottom >= 0 && positionThree.bottom <= window.innerHeight) {
+  if (positionThree.top <= 280 && positionThree.bottom >= 430) {
     yearTwo.style.display = 'none';
     yearThree.style.display = 'block';
+    yearThree.style.backgroundColor = 'rgba(254, 206, 122, 0.8)';
   } else {
     yearThree.style.display = 'none';
   }
 
-  if (positionFour.bottom >= 0 && positionFour.bottom <= window.innerHeight) {
+  if (positionFour.top <= 280 && positionFour.bottom >= 430) {
     yearThree.style.display = 'none';
     yearFour.style.display = 'block';
+    yearFour.style.color = '#000';
+    yearFour.style.backgroundColor = 'rgba(217, 217, 217, 0.8)';
   } else {
     yearFour.style.display = 'none';
   }
 
-  if (positionFive.bottom >= 0 && positionFive.bottom <= window.innerHeight) {
+  if (positionFive.top <= 280 && positionFive.bottom >= 430) {
     yearFour.style.display = 'none';
     yearFive.style.display = 'block';
+    yearFive.style.color = '#000';
+    yearFive.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
   } else {
     yearFive.style.display = 'none';
   }
 
-  if (positionSix.bottom >= 0 && positionSix.bottom <= window.innerHeight) {
+  if (positionSix.top <= 280 && positionSix.bottom >= 430) {
     yearFive.style.display = 'none';
     yearSix.style.display = 'block';
+    yearSix.style.backgroundColor = 'rgba(0, 93, 196, 0.8)';
   } else {
     yearSix.style.display = 'none';
   }
 
-  if (positionSeven.bottom >= 0 && positionSeven.bottom <= window.innerHeight) {
+  if (positionSeven.top <= 280 && positionSeven.bottom >= 430) {
     yearSix.style.display = 'none';
     yearSeven.style.display = 'block';
+    yearSeven.style.color = '#000';
+    yearSeven.style.backgroundColor = 'rgba(217, 217, 217, 0.8)';
   } else {
     yearSeven.style.display = 'none';
   }
 
-  if (positionEight.bottom >= 0 && positionEight.bottom <= window.innerHeight) {
+  if (positionEight.top <= 280 && positionEight.bottom >= 430) {
     yearSeven.style.display = 'none';
     yearEight.style.display = 'block';
+    yearEight.style.color = '#000';
+    yearEight.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
   } else {
     yearEight.style.display = 'none';
   }
 
-  if (positionNine.bottom >= 0 && positionNine.bottom <= window.innerHeight) {
+  if (positionNine.top <= 280 && positionNine.bottom >= 430) {
     yearEight.style.display = 'none';
     yearNine.style.display = 'block';
+    yearNine.style.backgroundColor = 'rgba(254, 206, 122, 0.8)';
   } else {
     yearNine.style.display = 'none';
   }
 
-  if (positionTen.bottom >= 0 && positionTen.bottom <= window.innerHeight) {
+  if (positionTen.top <= 280 && positionTen.bottom >= 430) {
     yearNine.style.display = 'none';
     yearTen.style.display = 'block';
+    yearTen.style.backgroundColor = 'rgba(155, 20, 23, 0.8)';
   } else {
     yearTen.style.display = 'none';
   }
@@ -147,7 +169,7 @@ document.addEventListener('scroll', () => {
 //   }
 
 //   // checking for partial visibility
-//   if(position.top < window.innerHeight && position.bottom >= 0) {
+//   if(position.top < window.innerHeight && position.top >= 30) {
 //     console.log('Element is partially visible in screen');
 //   }
 // });

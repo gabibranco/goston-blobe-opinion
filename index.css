@@ -11,16 +11,21 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   overflow-x: clip;
-  transition: 0.5s display ease;
-  /*opacity: 0.6;*/
 }
 
 .year-right p {
-  display: none;
   position: fixed;
   top: 33vh;
   z-index: 9;
-  right: 10px;
+  padding-left: 5px;
+  right: 0;
+  font-size: 20px;
+  color: #FFF;
+  display: none;
+}
+
+.year-right p span {
+  font-size: 20px;
 }
 
 .fixed-top {
@@ -93,30 +98,6 @@ p {
   font-weight: 800;
 }
 
-.highlight {
-  background-color: #FECE7A;
-  color: #000;
-  font-family: 'Alfa Slab One', cursive;
-  letter-spacing: 1px;
-  font-size: 24px;
-}
-
-.r-highlight {
-  background-color: #000;
-  color: #FECE7A;
-  font-family: 'Alfa Slab One', cursive;
-  letter-spacing: 1px;
-  font-size: 24px;
-}
-
-.bw-highlight {
-  background-color: #000;
-  color:  #FFF;
-  font-family: 'Alfa Slab One', cursive;
-  letter-spacing: 1px;
-  font-size: 24px;
-}
-
 .content-block {
   line-height: 16px;
 }
@@ -128,15 +109,13 @@ p {
 }
 
 .bg-red-twist {
-/*  min-height: 85vh;
-*/  margin-top:0px;
+  margin-top:0px;
   background-color: #9B1417;
   -webkit-transform: rotate(-3.43deg);
   -moz-transform: rotate(-3.43deg);
   width: 115vw;
   margin-left: -6vw;
   padding: 10px;
-  /*overflow-x: hidden;*/
   color: #FFF;
 }
 
@@ -158,7 +137,6 @@ p {
   width: 115vw;
   margin-left: -6vw;
   padding: 10px;
-  /*overflow-x: hidden;*/
   color: #000;
 }
 
@@ -170,7 +148,6 @@ p {
   width: 115vw;
   margin-left: -6vw;
   padding: 10px;
-  /*overflow-x: hidden;*/
   color: #000;
 }
 
