@@ -7,7 +7,7 @@ html, body {
 
 .year-right p {
   position: fixed;
-  top: 33vh;
+  top: 45vh;
   z-index: 9;
   padding: 0 5px;
   right: 0;
@@ -29,6 +29,8 @@ html, body {
   color: #FFF;
   display: none;
   max-width: 40vw;
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 800;
 }
 
 .fixed-top {
@@ -64,12 +66,6 @@ p {
 
 .first-p {
   font-family: 'Abhaya Libre', serif;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.caption {
-  font-family: 'Alfa Slab One', cursive;
   font-size: 20px;
   font-weight: 400;
 }
