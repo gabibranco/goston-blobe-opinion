@@ -11,12 +11,8 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   overflow-x: hidden;
+  width: 100%;
   height: auto;
-  width: 100vw !important;
-}
-
-body {
-  position: relative;
 }
 
 .year-right p {
