@@ -64,7 +64,7 @@ p {
 }
 
 .navbar-go {
-  background-color: transparent;
+  background-color: #FFF;
   transition: 0.5s background-color ease;
 }
 
