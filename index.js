@@ -2,7 +2,7 @@ let navbar = document.querySelector('.navbar-go')
 let navbarHeight = navbar.offsetHeight;
 let textOver = document.querySelector('.text-over');
 
-textOver.style.marginTop = navbarHeight + 'px';
+textOver.style.marginTop = (navbarHeight + 30 + 'px');
 
 document.addEventListener('scroll', () => {
   // find news blocks and its height
