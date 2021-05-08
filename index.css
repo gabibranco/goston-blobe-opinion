@@ -90,13 +90,13 @@ p {
   width: 250px;
 }
 
-.btn-danger {
-  background-color: #9B1417;
+.btn-primary {
+  background-color: #005DC4;
   font-family: 'Alfa Slab One', cursive;
   border-radius: 3px;
 }
 
-.btn-danger span {
+.btn-primary span {
   font-family: 'Roboto', sans-serif;
 }
 
