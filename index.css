@@ -86,6 +86,10 @@ p {
   letter-spacing: 1px;
 }
 
+.bg-logo img {
+  width: 250px;
+}
+
 .btn-danger {
   background-color: #9B1417;
   font-family: 'Alfa Slab One', cursive;
