@@ -28,6 +28,10 @@ html, body {
   font-size: 20px;
 }
 
+.go-logo img {
+  height: 88px;
+}
+
 .caption-left p {
   text-transform: uppercase;
   line-height: 21px;
