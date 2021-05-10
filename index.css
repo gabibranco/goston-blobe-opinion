@@ -57,8 +57,8 @@ p {
 }
 
 .twist {
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3.43deg);
+  -moz-transform: rotate(-3.43deg);
 }
 
 #logo {
