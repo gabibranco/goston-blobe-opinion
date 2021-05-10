@@ -5,6 +5,13 @@ html, body {
   font-weight: 100;
 }
 
+@media screen and (min-width: 550px) {
+  .full-width-breakpoint {
+    display: none;
+    line-height: 0;
+  }
+}
+
 .year-right p {
   position: fixed;
   top: 45vh;
