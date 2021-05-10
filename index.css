@@ -62,7 +62,7 @@ p {
 }
 
 #logo {
-  height: 85px;
+  width: 220px;
 }
 
 .bold {
@@ -96,7 +96,7 @@ p {
 }
 
 .bg-logo img {
-  width: 250px;
+  width: 120px;
 }
 
 .btn-primary {
