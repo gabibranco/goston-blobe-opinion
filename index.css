@@ -161,6 +161,10 @@ p {
   -moz-transform: skewY(3.43deg);
 }
 
+.container {
+  max-width: 660px;
+}
+
 .collection {
   width: 100%;
   max-width: 660px;
