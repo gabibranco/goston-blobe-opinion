@@ -22,6 +22,8 @@ html, body {
 }
 
 .caption-left p {
+  text-transform: uppercase;
+  line-height: 21px;
   position: fixed;
   top: 45vh;
   z-index: 9;
@@ -30,9 +32,9 @@ html, body {
   font-size: 20px;
   color: #FFF;
   display: none;
-  max-width: 40vw;
-  font-family: 'Abhaya Libre', serif;
-  font-weight: 800;
+  max-width: 80vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .fixed-top {
